@@ -1,0 +1,172 @@
+.head {
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 35%;
+    margin: auto;
+    padding: 0.7rem;
+    font-size: 25px;
+    font-weight: bold;
+    /* word-spacing: 10px; */
+    letter-spacing: 2px;
+}
+
+.para {
+    font-family: 'Fira Mono', monospace;
+    font-size: 15px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    background-color: black;
+    padding: 20px;
+}
+
+body {
+    background-image: url(https://images.wallpapersden.com/image/download/creek-digital-art_a2lqZ2WUmZqaraWkpJRmaGhrrWxrbQ.jpg);
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    margin: 10rem 0 0 0;
+}
+
+.name {
+    color: white;
+    padding-right: 1rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.name-parent {
+    margin: auto;
+    width: 40%;
+    background-color: black;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    padding: 20px 0 10px 0;
+}
+
+.name-input {
+    display: inline;
+}
+
+.email {
+    padding: 37px;
+    text-align: center;
+}
+
+.input-name {
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 0 7px 0;
+    width: 40%;
+}
+
+input[type=text] {
+    color: white;
+    font-size: 20px;
+}
+
+input[type=email] {
+    color: white;
+    font-size: 20px;
+}
+
+.sub {
+    color: rgb(75, 74, 74);
+    text-decoration: none;
+    background-color: white;
+    width: 18px;
+    font-size: 22px;
+    padding: 2px 5px 2px 5px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Space Mono', monospace;
+    font-weight: 300;
+}
+
+.sub:hover {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid white;
+    width: 18px;
+    font-size: 22px;
+    padding: 2px 5px 2px 5px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Space Mono', monospace;
+    font-weight: 300;
+}
+
+.subscribe {
+    margin: 20px;
+}
+
+.small-para {
+    color: rgb(224, 224, 224);
+    font-family: 'Space Mono', monospace;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5rem;
+}
+
+.last-para {
+    color: white;
+    background-color: black;
+    width: 32%;
+    margin: auto;
+    margin-top: 2rem;
+    font-family: 'Fira Mono', monospace;
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 50px;
+    padding: 12px 12px 12px 12px;
+}
+
+.stitcher {
+    color: white;
+    border: 1px solid rgb(255, 0, 140);
+    text-decoration: none;
+    background-color: rgb(255, 0, 140);
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 7px 7px 7px 7px;
+    margin: auto;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+
+.stitcher:hover {
+    color: black;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 7px 7px 7px 7px;
+    margin: auto;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+
+.book-link {
+    color: white;
+}
+
+.book-link:hover {
+    color: white;
+    text-decoration: none;
+}
