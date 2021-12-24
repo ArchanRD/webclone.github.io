@@ -332,7 +332,8 @@ a {
         background-color: black;
         width: 95%;
         margin: auto;
-        margin-top: 8rem;
+        display: inline-block;
+        margin-top: 3rem;
         font-size: 15px;
         padding: 0.8rem;
         font-weight: 700;
@@ -341,6 +342,8 @@ a {
     * {
         margin: 0.4rem;
         background-attachment: fixed;
+        align-items: center;
+        text-align: center;
     }
     body {
         background-image: url(phone-bg.png);
